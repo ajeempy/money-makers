@@ -485,18 +485,18 @@ function App() {
 
 
 
-//      <div className="instructions">
-//        <h2><i className="fas fa-info-circle"></i> How to Use</h2>
-//        <ol>
-//          <li>Select a date from the calendar</li>
-//          <li>Enter your daily profit, zakat rate, and any sadaka amount</li>
-//          <li>Click "Save Data" to store your information</li>
-//          <li>View your financial summary and charts below</li>
-//          <li>Use the "Export Data" button to download your records as CSV</li>
-//          <li>Share this app with others using the share buttons above</li>
-//        </ol>
-//        <p><strong>Note:</strong> All data is stored locally in your browser and remains private.</p>
-//      </div>
+      {/*  <div className="instructions">
+        <h2><i className="fas fa-info-circle"></i> How to Use</h2>
+        <ol>
+          <li>Select a date from the calendar</li>
+          <li>Enter your daily profit, zakat rate, and any sadaka amount</li>
+          <li>Click "Save Data" to store your information</li>
+          <li>View your financial summary and charts below</li>
+          <li>Use the "Export Data" button to download your records as CSV</li>
+          <li>Share this app with others using the share buttons above</li>
+        </ol>
+        <p><strong>Note:</strong> All data is stored locally in your browser and remains private.</p>
+      </div> */}
 
       <div className="storage-info">
         <span>Data Storage: <span className="value">Local Storage</span></span>
