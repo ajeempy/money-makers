@@ -475,7 +475,7 @@ function App() {
     <div className="container">
       <header>
         <div className="header-content">
-          <h1><i className="fas fa-calculator"></i> Profit & Zakat Tracker</h1>
+          <h1><i className="fas fa-calculator"></i> Money Makers profits and lose</h1>
           <p className="description">Track your daily profits, zakat, and sadaka with calendar-based data selection and real-time storage</p>
         </div>
         <div id="currentDateTime" style={{fontWeight: 600, color: '#2c3e50'}}>
