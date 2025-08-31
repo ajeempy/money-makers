@@ -483,34 +483,20 @@ function App() {
         </div>
       </header>
 
-      <div className="sharing-section">
-        <h2><i className="fas fa-share-alt"></i> Share this App</h2>
-        <p>Share this app with your friends and family so they can also track their profits and zakat</p>
-        <div className="share-buttons">
-          <a href={sharing.whatsapp} className="share-btn whatsapp" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-whatsapp"></i> WhatsApp
-          </a>
-          <a href={sharing.telegram} className="share-btn telegram" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-telegram"></i> Telegram
-          </a>
-          <button className="share-btn link" onClick={sharing.copyLink}>
-            <i className="fas fa-link"></i> Copy Link
-          </button>
-        </div>
-      </div>
 
-      <div className="instructions">
-        <h2><i className="fas fa-info-circle"></i> How to Use</h2>
-        <ol>
-          <li>Select a date from the calendar</li>
-          <li>Enter your daily profit, zakat rate, and any sadaka amount</li>
-          <li>Click "Save Data" to store your information</li>
-          <li>View your financial summary and charts below</li>
-          <li>Use the "Export Data" button to download your records as CSV</li>
-          <li>Share this app with others using the share buttons above</li>
-        </ol>
-        <p><strong>Note:</strong> All data is stored locally in your browser and remains private.</p>
-      </div>
+
+//      <div className="instructions">
+//        <h2><i className="fas fa-info-circle"></i> How to Use</h2>
+//        <ol>
+//          <li>Select a date from the calendar</li>
+//          <li>Enter your daily profit, zakat rate, and any sadaka amount</li>
+//          <li>Click "Save Data" to store your information</li>
+//          <li>View your financial summary and charts below</li>
+//          <li>Use the "Export Data" button to download your records as CSV</li>
+//          <li>Share this app with others using the share buttons above</li>
+//        </ol>
+//        <p><strong>Note:</strong> All data is stored locally in your browser and remains private.</p>
+//      </div>
 
       <div className="storage-info">
         <span>Data Storage: <span className="value">Local Storage</span></span>
@@ -682,6 +668,22 @@ function App() {
               })}
           </tbody>
         </table>
+      </div>
+
+      <div className="sharing-section">
+        <h2><i className="fas fa-share-alt"></i> Share this App</h2>
+        <p>Share this app with your friends and family so they can also track their profits and zakat</p>
+        <div className="share-buttons">
+          <a href={sharing.whatsapp} className="share-btn whatsapp" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href={sharing.telegram} className="share-btn telegram" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-telegram"></i> Telegram
+          </a>
+          <button className="share-btn link" onClick={sharing.copyLink}>
+            <i className="fas fa-link"></i> Copy Link
+          </button>
+        </div>
       </div>
 
       <footer>
