@@ -689,10 +689,17 @@ function App() {
       </footer>
 
       {notification.show && (
-        <div className={`notification ${notification.isSuccess ? '' : 'error'}`}>
-          {notification.message}
-        </div>
-      )}
+  <div className={`notification ${notification.isSuccess ? '' : 'error'}`}>
+    {notification.message}
+    <button
+      className="close-btn"
+      onClick={() => setNotification({ message: '', isSuccess: true, show: false })}
+      aria-label="Close notification"
+    >
+      <i className="fas fa-times"></i>
+    </button>
+  </div>
+)}
     </div>
   );
 }
